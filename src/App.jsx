@@ -8,7 +8,7 @@ const App = () => {
 
     return (
         <>
-            <div></div>
+            <div>App</div>
 
             {/* <SignUp/>
             <Login/>
