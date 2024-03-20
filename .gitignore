@@ -427,7 +427,3 @@ dist-ssr
 
 # Pasta privada
 private/
-
-# Configurações do Vite
-vite.config.js
-.eslintrc.cjs
