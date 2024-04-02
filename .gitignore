@@ -427,3 +427,6 @@ dist-ssr
 
 # Pasta privada
 private/
+
+# Modulos do Node
+node_modules
