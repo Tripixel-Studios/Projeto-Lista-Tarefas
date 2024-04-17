@@ -1,0 +1,81 @@
+GET http://localhost:3333/
+
+###
+
+POST http://localhost:3333/usuario
+Content-Type: application/json
+
+{
+    "name": "TesteFinal?",
+    "email": "tee@gmail.com",
+    "password": "12345678"
+}
+
+###
+
+GET http://localhost:3333/usuarios
+
+###
+
+PUT http://localhost:3333/usuario/1
+Content-Type: application/json
+
+{
+    "name": "UsuarioModificadoMesmo",
+    "email": "usuario@example.com",
+    "password": "12345678"
+}
+
+###
+
+DELETE http://localhost:3333/usuario/5
+
+###
+
+GET http://localhost:3333/usuario/2/categorias
+
+###
+
+POST http://localhost:3333/usuario/2/categoria
+Content-Type: application/json
+
+{
+    "name": "Nova Categoria"
+}
+
+###
+
+PUT http://localhost:3333/categoria/2
+Content-Type: application/json
+
+{
+    "name": "Teste"
+}
+
+###
+
+DELETE http://localhost:3333/categoria/2
+
+###
+
+POST http://localhost:3333/categoria/2/tarefa
+Content-Type: application/json
+
+{
+    "name": "primeiratarefa"
+}
+
+###
+
+GET http://localhost:3333/categoria/2/tarefa
+
+
+###
+
+PUT http://localhost:3333/tarefa/4
+Content-Type: application/json
+
+{
+    "name": "TarefaModificada",
+    "state": true
+}
